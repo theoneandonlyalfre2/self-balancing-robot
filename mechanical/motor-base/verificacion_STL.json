@@ -1,0 +1,41 @@
+{
+  "triangles": 3024,
+  "dimensions_mm": [
+    138.39999389648438,
+    64.0,
+    53.29999923706055
+  ],
+  "watertight": true,
+  "signed_volume_mm3": 55367.24131240603,
+  "f3d_valid_archive": true,
+  "files": [
+    [
+      "Base_NEMA17_AS5600.f3d",
+      367581
+    ],
+    [
+      "Base_NEMA17_AS5600.png",
+      371857
+    ],
+    [
+      "Base_NEMA17_AS5600.stl",
+      151284
+    ],
+    [
+      "montaje_previo.png",
+      397645
+    ],
+    [
+      "verificacion.json",
+      2645
+    ],
+    [
+      "base_previa.png",
+      334316
+    ],
+    [
+      "Base_NEMA17_AS5600.step",
+      99387
+    ]
+  ]
+}

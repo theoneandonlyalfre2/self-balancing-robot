@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "SelfBalancingRobot") (type "KiCad") (uri "${KIPRJMOD}/SelfBalancingRobot.kicad_sym") (options "") (descr "Project symbols"))
+  (lib (name "LM2596 Buck Converter") (type "KiCad") (uri "${KIPRJMOD}/LM2596 Buck Converter.kicad_sym") (options "") (descr "Project buck converter symbol"))
+)

@@ -1,0 +1,122 @@
+{
+  "document": "Base motores NEMA17 - AS5600",
+  "overall_mm": [
+    138.4,
+    64.0,
+    53.29999999999999
+  ],
+  "motor_and_encoder_length_mm": 44.20000000000001,
+  "pin_protrusion_mm": 6.5,
+  "cable_reserve_each_mm": 18.0,
+  "encoder_face_gap_mm": 40.0,
+  "gap_between_pin_tips_mm": 27.0,
+  "margin_between_cable_reserves_mm": 4.0,
+  "base_volume_cm3": 55.35365966024981,
+  "solid_bodies_in_base": 1,
+  "lumps_in_base": 1,
+  "fully_constrained_base_sketches": 14,
+  "feature_issues": [],
+  "reference_interferences": 0,
+  "parameter_tests": [
+    {
+      "parameter": "motor_largo",
+      "test_expression": "45.2 mm",
+      "width_mm": 140.4,
+      "result": "pass"
+    },
+    {
+      "parameter": "cable_reserva",
+      "test_expression": "20 mm",
+      "width_mm": 142.40000000000003,
+      "result": "pass"
+    }
+  ],
+  "motor_holes": [
+    {
+      "center_mm": [
+        64.2,
+        0.0,
+        27.15
+      ],
+      "diameter_mm": 22.6
+    },
+    {
+      "center_mm": [
+        64.2,
+        -15.5,
+        11.649999999999999
+      ],
+      "diameter_mm": 3.400000000000001
+    },
+    {
+      "center_mm": [
+        64.2,
+        -15.5,
+        42.65
+      ],
+      "diameter_mm": 3.3999999999999986
+    },
+    {
+      "center_mm": [
+        64.2,
+        15.5,
+        11.649999999999999
+      ],
+      "diameter_mm": 3.400000000000001
+    },
+    {
+      "center_mm": [
+        64.2,
+        15.5,
+        42.65
+      ],
+      "diameter_mm": 3.3999999999999986
+    },
+    {
+      "center_mm": [
+        -64.2,
+        0.0,
+        27.15
+      ],
+      "diameter_mm": 22.6
+    },
+    {
+      "center_mm": [
+        -64.2,
+        -15.5,
+        11.649999999999999
+      ],
+      "diameter_mm": 3.400000000000001
+    },
+    {
+      "center_mm": [
+        -64.2,
+        -15.5,
+        42.65
+      ],
+      "diameter_mm": 3.3999999999999986
+    },
+    {
+      "center_mm": [
+        -64.2,
+        15.5,
+        11.649999999999999
+      ],
+      "diameter_mm": 3.400000000000001
+    },
+    {
+      "center_mm": [
+        -64.2,
+        15.5,
+        42.65
+      ],
+      "diameter_mm": 3.3999999999999986
+    }
+  ],
+  "assumptions": [
+    "Motor square envelope 42.3 mm; mounting pitch 31 mm; nominal M3 threaded holes and 22 mm front boss must be verified on actual motors.",
+    "Reference shafts, front/rear caps, encoder plate thickness and pin lateral positions are illustrative.",
+    "18 mm cable space is total from encoder rear face and includes 6.5 mm pins.",
+    "Motor torque, wheel diameter, robot mass and printing process have not been specified; structural and print-fit validation remain for physical prototype."
+  ]
+}
